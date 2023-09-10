@@ -1,6 +1,6 @@
 "use client";
 import { Context } from "@/Context/Context";
-import { Tabs } from "@/types";
+import { Tabs } from "@/types/types";
 import { useContext } from "react";
 import SelectNetwork from "../SelectNetwork";
 
@@ -26,7 +26,7 @@ const SelectTabs = () => {
           ))}
         </div>
         <div>
-          <span className="text-sm">Selected Network:</span>
+          <span className="text-sm mr-1">Selected Network:</span>
           <SelectNetwork />
         </div>
       </div>
